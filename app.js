@@ -1,7 +1,7 @@
 function checkExam(correctAnswers, studentAnswers) {
 //start with a score of 0
 var score = 0;
-  //loop through the array of correct answere
+  //loop through the array of correct answer
   for(var i = 0; i < correctAnswers.length; i++) { 
       //if the answer matches the students answer add 4 to the score
       if(correctAnswers[i] === studentAnswers[i]){
@@ -11,7 +11,7 @@ var score = 0;
       else if(studentAnswers[i] === ""){
       score -= 0;
       }
-      //if the student has an answer that is not correct and not an empty string, deduct 1 ooint from their score
+      //if the student has an answer that is not correct and not an empty string, deduct 1 point from their score
       else {
       score -= 1
       }
